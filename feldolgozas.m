@@ -3,7 +3,7 @@ close all;
 clear all;
 % This code filters, plots, and saves a previously measured signal into a .mat file.
 
-file='furdo.txt';
+file='temperature.txt';
 
 fid = fopen(file);
 line = fgetl(fid);
